@@ -4,7 +4,6 @@ import Appbar from './Appbar.js';
 
 const Dreamspage = () =>(
 	<div align='center'>
-		<h1>Dreamasdfsdfwfe</h1>
 	     <Appbar />
 	</div>
 

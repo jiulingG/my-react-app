@@ -4,7 +4,6 @@ import Appbar from './Appbar.js';
 
 const Hobypage = () => (
 	<div align='center'>
-		<h1>Hoby</h1>
 	     <Appbar />
 	</div>
 

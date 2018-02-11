@@ -3,11 +3,8 @@ import {Link} from 'react-router-dom';
 import Appbar from './Appbar.js';
 
 const HomePage = () => (
-	<div align='center'>
-		<h1>Home Page</h1>
-		<div>
+	<div>
 	     <Appbar />
-		</div>
 	</div>
 
 );
