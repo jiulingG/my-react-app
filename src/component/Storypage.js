@@ -4,7 +4,7 @@ import Appbar from './Appbar.js';
 
 
 const Storypage = () => (
-	<div align='center'>
+	<div>
 		<Appbar />
 	</div>
 

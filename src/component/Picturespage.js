@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 import Appbar from './Appbar.js';
 
 const Picturespage = () => (
-	<div align='center'>
+	<div>
 	     <Appbar />
 	</div>
 
