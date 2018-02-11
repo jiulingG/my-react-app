@@ -11,19 +11,13 @@ const AppbarStyle=styled('div')`
       display:flex;
       justify-content: flex-end;`
 
-const HomeStyle=styled('span')`
-      margin: 1em;
-      padding: 0.5em 1em;
-      border-radius: 5px;
-      background: #eee;
-      display:flex;
-      justify-content: flex-start;`
+
 
 const Appbar=()=>(
   <Navbar style={{fixedTop:'true'}}>
-   <HomeStyle>
-     <Link to="/" style={{textDecoration: 'none'}}>Home</Link>&nbsp;</HomeStyle>
+     
     <AppbarStyle>
+    <Link to="/" style={{flex: 1}}>Home</Link>&nbsp;
     <Link to="/Storypage" style={{textDecoration: 'none' }}> Storys </Link>&nbsp;
     <Link to="/Picturespage" style={{ textDecoration: 'none' }}> Pictures </Link>&nbsp;  
     <Link to="/Hobypage" style={{ textDecoration: 'none' }}> Hoby </Link>&nbsp;   
