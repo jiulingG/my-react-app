@@ -6,6 +6,7 @@ import Hobypage from './component/Hobypage';
 import Picturespage from './component/Picturespage';
 import Dreamspage from './component/Dreamspage';
 
+
 const App=()=>(
 
    <div className="SS">
