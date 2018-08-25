@@ -1,16 +1,21 @@
 import React from 'react';
+import styled from 'react-emotion';
 import ReactDOM from 'react-dom';
 import App from './App.js';
-import { BrowserRouter } from 'react-router-dom';
+import InvestType from './component/InvestType';
 import imgUrl from './component/Background.jpg';
+import Appbar from './component/Appbar.js';
 
-const homeImage = {
-	minheight: '100%',
-	 width: '100%',
-      margin: 'auto',
-      height:'100%', 
-    position:'fixed',
-    background: `url(${ imgUrl })`}
+const PageContainer = styled('div')({
+  display: 'flex',
+  flexDirection: 'column',
+  background: `url(${ imgUrl })` 
+}) 
 
-ReactDOM.render(<div style={homeImage}><BrowserRouter><App /></BrowserRouter></div>,document.getElementById('root'));
+ReactDOM.render(
+<PageContainer>
+  <Appbar />
+  <InvestType />
+</PageContainer>
+,document.getElementById('root'));
 
